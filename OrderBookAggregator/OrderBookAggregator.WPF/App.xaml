@@ -1,0 +1,11 @@
+﻿<Application x:Class="OrderBookAggregator.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:OrderBookAggregator.WPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type loc:ExchangeViewModel}">
+            <loc:ExchangeView />
+        </DataTemplate>
+    </Application.Resources>
+</Application>
