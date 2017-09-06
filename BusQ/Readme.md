@@ -1,10 +1,10 @@
-#What's BusQ?
+# What's BusQ?
 
 BusQ is a .NET component that makes easier for developers to work with Azure Service Bus Queues. You'll no longer have to create Topic or Queue receivers to listen for messages. It's developed in C# with Reactive Extensions.
 
-##How BusQ works?
+## How BusQ works?
 
-###Listening to a Service Bus Queue
+### Listening to a Service Bus Queue
 
 ```js
 //Create the listener
@@ -27,7 +27,7 @@ listener.Stop();
 listener.Dispose();
 ```
 
-###Listening to a Service Bus Topic
+### Listening to a Service Bus Topic
 
 ```js
 //Create the listener
@@ -50,7 +50,7 @@ using(var listener = new Listener())
 }
 ```
 
-###An Observable Listener
+### An Observable Listener
 ```js
 //Create the listener
 var listener = new Listener();
@@ -74,4 +74,4 @@ listener.Stop();
 listener.Dispose();
 ```
 
-#Have fun!
+# Have fun!
